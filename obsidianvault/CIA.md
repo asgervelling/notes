@@ -1,0 +1,1 @@
+Three security goals: [[Confidentiality]], [[Integrity]] and [[Availability]].

@@ -1,0 +1,1 @@
+A [[TCP]] packet consists of a header and data. The header contains essential information like source and destination ports, sequence and acknowledgment numbers, control flags (e.g., SYN, ACK), window size, and checksum. The data section holds the actual payload being transmitted.

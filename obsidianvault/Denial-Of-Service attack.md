@@ -1,0 +1,1 @@
+A denial of service attack aims to compromise the victim's [[Availability]], often by sending many requests, such as the [[SYN Flood]].
