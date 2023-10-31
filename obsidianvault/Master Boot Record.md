@@ -1,0 +1,1 @@
+The master boot record is a byte value found at the very beginning of a disk. It tells you what [[File Systems|file system]] is on the disk (or other storage device).

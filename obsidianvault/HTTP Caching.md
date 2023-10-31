@@ -1,0 +1,1 @@
+A useful mechanism, so your users don't have to download all that JS.

@@ -1,0 +1,1 @@
+A stream of execution where the choice of what to do next is made by the code itself

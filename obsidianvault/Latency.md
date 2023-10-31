@@ -1,0 +1,2 @@
+How quickly can we get a response?
+For example: How long does it take to read just a single byte from the disk? Or, how long does it take from the user clicks a button, to the program responds to that click?
