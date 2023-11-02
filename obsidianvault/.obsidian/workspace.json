@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3f33617f6076e725",
+        "id": "7810fee833d0ac2f",
         "type": "tabs",
         "children": [
           {
-            "id": "4c2e27a6c60daf5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Block Cipher Mode of Operation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eea3f06f184513d1",
+            "id": "5a44c9806285179b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9eae964f913371d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domain Name System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Block Cipher Mode of Operation.md",
+                "file": "Domain Name System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Block Cipher Mode of Operation.md",
+                "file": "Domain Name System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Block Cipher Mode of Operation.md"
+                "file": "Domain Name System.md"
               }
             }
           }
@@ -160,24 +161,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c2e27a6c60daf5d",
+  "active": "9eae964f913371d5",
   "lastOpenFiles": [
+    "Pasted image 20231102155603.png",
+    "Socket.md",
+    "Domain Name System.md",
+    "Circuit Switching.md",
+    "Packet Switching.md",
+    "Structure and Semantics of a Language.md",
+    "Backus-Naur Form.md",
+    "Pasted image 20231102001652.png",
+    "Pasted image 20231102001640.png",
+    "Pasted image 20231102000834.png",
+    "Pasted image 20231102000702.png",
+    "Pasted image 20231101235141.png",
+    "Two's Complement.md",
+    "Untitled 1.canvas",
+    "Untitled 2.md",
+    "HTTP.md",
+    "Untitled 1.md",
+    "Block Cipher Mode of Operation.md",
+    "Worm vs Virus.md",
     "Pasted image 20231031084521.png",
     "Pasted image 20231031084502.png",
     "Pasted image 20231031084440.png",
     "Pasted image 20231031084426.png",
     "Pasted image 20231031084407.png",
-    "Pasted image 20231031083652.png",
     "Block Cipher.md",
-    "Block Cipher Mode of Operation.md",
     "Principle of Least Privilege.md",
     "HTTP Caching.md",
     "Cookie.md",
     "Three-Way Handshake.md",
-    "Socket.md",
     "TCP.md",
-    "Packet Switching.md",
-    "Circuit Switching.md",
     "Concurrency.md",
     "Thread Synchronization.md",
     "Thread.md",
@@ -185,19 +200,6 @@
     "Logical Control Flow.md",
     "Iterative and Concurrent Servers.md",
     "File Types.md",
-    "Pasted image 20231030105537.png",
-    "Internet Connection.md",
-    "NTFS File System.md",
-    "IP Addresses.md",
-    "Lock.md",
-    "Computer Systems.md",
-    "Amdahl's Law.md",
-    "Gustafson's Law.md",
-    "Forensics.md",
-    "Pasted image 20231025112637.png",
-    "Pasted image 20231025104642.png",
-    "Pasted image 20231023113409.png",
-    "Pasted image 20231023112511.png",
     "Untitled.canvas"
   ]
 }

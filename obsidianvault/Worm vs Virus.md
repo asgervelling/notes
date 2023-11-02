@@ -1,0 +1,1 @@
+A worm can spread to other computers by itself, a virus needs software to spread.

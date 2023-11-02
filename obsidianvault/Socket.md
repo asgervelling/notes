@@ -1,10 +1,11 @@
+A socket is an inter-process communication technique.
 A socket is simply a [[File Types|type of file]] like any other. You can do IO on it.
 To the kernel, a socket is an endpoint of communication.
 To an application, a socket is a file descriptor that lets the application read/write from/to the network (recall that all Unix IO devices, including networks, are modeled as files.)
 In a connection, there are listening file descriptors and connecting file descriptors.
 
 A socket is an endpoint of a [[Internet Connection|connection]].
-A socket address is an **IP address:port** pair. Essentially, [[Ports|ports]] are file descriptors. So the fact that we have 65000 or so ports, we are able to have 65000 open connections at the same time.
+A socket address is an **IP address:port** pair. Essentially, [[Ports|ports]] are file descriptors. So the fact that we have 65000 or so ports, we are able to have 65000 open connections at the same time. In practice, however, we would run out of threads way before that.
 
 You use one socket to send and one to receive, if it's two-way communication.
 
@@ -15,7 +16,6 @@ Sending a message is a blocking operation.
 Short counts do occur. A short count is when the number returned by a `fread` or `read` is less than expected, i.e. the number of bytes read was less than expected.
 You wanna read the header, to see how many bytes of the packet to read, but don't read way too much.
 
-
 ##### Socket Address Structures
 **Generic**
 ```C
@@ -24,6 +24,23 @@ struct sockaddr {
 	char sa_data[14]; /* Address data. */
 };
 ```
+[^1]
+##### sockaddr_in
+```C
+#include <netinet/in.h>
+
+struct sockaddr_in {
+	short sin_family; // e.g. AF_INET
+	unsigned short sin_port; // e.g. htons(3490)
+	struct in_addr sin_addr; // see struct in_addr, below
+	char sin_zero[8]; // zero this if you want to
+};
+
+struct in_addr {
+	unsigned long s_addr; // load with inet_aton()
+};
+```
+
 
 **IPv4 Socket**
 ```C
@@ -31,15 +48,25 @@ struct sockaddr_in { uint16_t sin_family; /* Protocol family (always AF_INET) */
 ```
 
 ##### Example: Setting up an address
+```C
+struct sockaddr_in serv_addr;
+serv_addr.sin_family = AF_INET;
+serv_addr.sin_port = htons(12345);
+if (inet_pton(AF_INET, “123.123.123.123”, &serv_addr.sin_addr) <= 0) {  
+	printf("Invalid address\n"); return -1;
+}
 ```
-struct sockaddr_in serv_addr; serv_addr.sin_family = AF_INET; serv_addr.sin_port = htons(12345); if (inet_pton(AF_INET, “123.123.123.123”, &serv_addr.sin_addr) <= 0) { printf("Invalid address\n"); return -1; }
-```
-
 ##### Byte order
+*Little-endian or big-endian.*
 Use `inet_ntop`, `inet_pton` functions for converting between dotted decimal notation and IP addresses.
-Use `htonl`, `htons`, `ntohl` and `ntohs` functions for network byte order conversions.
-Read up on network byte order.
+Use `htonl`, `htons` (host-to-network short), `ntohl` and `ntohs` functions for network byte order conversions.
 
+##### AF_INET address family
+This address family provides inter-process communication between processes that run on the same system or on different systems."
+
+##### Protocol
+`SOCK_STREAM`: Use [[Circuit Switching]] with [[TCP]].
+`SOCK_DGRAM`: Use [[Packet Switching]] with [[UDP]].
 
 ##### Example: Echo server
 ![[Pasted image 20231025104642.png]]
@@ -79,3 +106,6 @@ For more examples on socket programming, see this [echo sever implementation](ht
    `int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);`
 4. Connect
 5. Close
+
+
+[^1]: https://www.gta.ufrj.br/ensino/eel878/sockets/sockaddr_inman.html
