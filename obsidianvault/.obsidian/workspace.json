@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8471845802d50f13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RabbitMQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0b19162278c1713a",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP.md",
+                "file": "RabbitMQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP.md",
+                "file": "RabbitMQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP.md"
+                "file": "RabbitMQ.md"
               }
             }
           }
@@ -160,8 +173,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9eae964f913371d5",
+  "active": "8471845802d50f13",
   "lastOpenFiles": [
+    "Statistical Multiplexing.md",
+    "RabbitMQ.md",
+    "Pasted image 20231105212507.png",
+    "HTTP.md",
     "Socket.md",
     "DNS Record.md",
     "Domain Name System.md",
@@ -184,11 +201,9 @@
     "Two's Complement.md",
     "Untitled 1.canvas",
     "Untitled 2.md",
-    "HTTP.md",
     "Block Cipher Mode of Operation.md",
     "Worm vs Virus.md",
     "Pasted image 20231031084521.png",
-    "Pasted image 20231031084502.png",
     "Block Cipher.md",
     "Principle of Least Privilege.md",
     "HTTP Caching.md",
@@ -197,8 +212,6 @@
     "TCP.md",
     "Concurrency.md",
     "Thread Synchronization.md",
-    "Thread.md",
-    "Scaling.md",
     "Untitled.canvas"
   ]
 }
