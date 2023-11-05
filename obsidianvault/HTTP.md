@@ -9,6 +9,8 @@ Host: www.w3.org
 
 ### RFC 2616: HTTP/1.1
 
+
+
 ##### 4. HTTP Message
 - 4.1. **Message Types**: Request or Response
 - 4.2 **Message Headers**

@@ -25,7 +25,7 @@ struct sockaddr {
 };
 ```
 [^1]
-##### sockaddr_in
+##### sockaddr_in (for IPv4)
 ```C
 #include <netinet/in.h>
 
@@ -41,11 +41,6 @@ struct in_addr {
 };
 ```
 
-
-**IPv4 Socket**
-```C
-struct sockaddr_in { uint16_t sin_family; /* Protocol family (always AF_INET) */ uint16_t sin_port; /* Port num in network byte order */ struct in_addr sin_addr; /* IP addr in network byte order */ unsigned char sin_zero[8]; /* Pad to sizeof(struct sockaddr) */ };
-```
 
 ##### Example: Setting up an address
 ```C
@@ -102,7 +97,7 @@ For more examples on socket programming, see this [echo sever implementation](ht
 2. Listen
    ``
 3. Accept
-   Servers wait for connection requests from clients by calling `accept`.
+   Servers wait for connection requests from clients by calling `accept`. Blocking call.
    `int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);`
 4. Connect
 5. Close

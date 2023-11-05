@@ -11,6 +11,8 @@ They're like a phone book
 | 72.441.23.43 | google.com |
 | 921.3.91.91 | ebay.com |
 
+See more: [[DNS Record]].
+
 ### Recursive Resolver
 *AKA name server or DNS resolver*.
 A DNS resolver, also known as a recursive resolver, is a server that can both process DNS queries and maintain a cache of DNS records.
@@ -36,4 +38,5 @@ These servers handle the top-level domain information (like .com, .org, .net). T
 - The resolver will now ask the TLD server for the IP address of google.com.
 - The TLD server does not know the IP address. Instead, it redirects the resolver to an **authoritative name server**. 
 - The authoritative name server responds to the name server with the IP address for google.com.
-- Finally, the name server responds to the user's local machine with the IP address initially asked for.
+- The name server responds to the user's local machine with the IP address initially asked for.
+- Finally, the name server stores the DNS record in its cache for as long as is specified in the record's TTL.
