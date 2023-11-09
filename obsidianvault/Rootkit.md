@@ -1,0 +1,1 @@
+A rootkit is software used by cyber-criminals to gain control over a target computer or network. Rootkits can sometimes appear as a single piece of software but are often made up of a collection of tools that allow hackers administrator-level control over the target device.

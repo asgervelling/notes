@@ -1,4 +1,4 @@
-In order to help with scalability and availability, we have two types of [[Domain Name System|DNS]] queries.
+In order to help with scalability and availability, we have two types of [[Domain Name System (DNS)|DNS]] queries.
 
 ### Recursive
 - DNS servers take responsibility for resolution. In other words, the DNS client demands an IP address from the DNS server.

@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7810fee833d0ac2f",
+        "id": "d42b3beb2e34ef4b",
         "type": "tabs",
         "children": [
           {
-            "id": "9eae964f913371d5",
+            "id": "e1a06f9444134ed3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8471845802d50f13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RabbitMQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b19162278c1713a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursive and Iterative DNS Queries.md",
+                "file": "Buffer Overflow.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inet_pton",
+                "query": "binar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RabbitMQ.md",
+                "file": "Buffer Overflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RabbitMQ.md",
+                "file": "Buffer Overflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RabbitMQ.md"
+                "file": "Buffer Overflow.md"
               }
             }
           }
@@ -173,45 +148,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8471845802d50f13",
+  "active": "e1a06f9444134ed3",
   "lastOpenFiles": [
-    "Statistical Multiplexing.md",
-    "RabbitMQ.md",
-    "Pasted image 20231105212507.png",
-    "HTTP.md",
-    "Socket.md",
-    "DNS Record.md",
-    "Domain Name System.md",
-    "Recursive and Iterative DNS Queries.md",
-    "Untitled.md",
-    "DNS Zone.md",
-    "DNS Database.md",
-    "Pasted image 20231102170153.png",
-    "Pasted image 20231102163827.png",
-    "Pasted image 20231102155603.png",
-    "Circuit Switching.md",
-    "Packet Switching.md",
-    "Structure and Semantics of a Language.md",
-    "Backus-Naur Form.md",
-    "Pasted image 20231102001652.png",
-    "Pasted image 20231102001640.png",
-    "Pasted image 20231102000834.png",
-    "Pasted image 20231102000702.png",
-    "Pasted image 20231101235141.png",
+    "RSA.md",
+    "Virtual Private Network (VPN).md",
+    "Key Establishment and Certificate Management.md",
+    "Digital Certificate.md",
     "Two's Complement.md",
-    "Untitled 1.canvas",
-    "Untitled 2.md",
-    "Block Cipher Mode of Operation.md",
-    "Worm vs Virus.md",
-    "Pasted image 20231031084521.png",
-    "Block Cipher.md",
+    "Binary.md",
+    "Signed and Unsigned Numbers.md",
+    "Buffer Overflow.md",
+    "Diffie-Hellman Key Exchange.md",
+    "Tunnel.md",
+    "Internet Protocol Security (IPSec).md",
+    "Secure Shell (SSH).md",
+    "Advanced Encryption Standard (AES).md",
+    "Networking.md",
+    "Symmetric Encryption.md",
+    "Asymmetric Encryption.md",
     "Principle of Least Privilege.md",
-    "HTTP Caching.md",
-    "Cookie.md",
-    "Three-Way Handshake.md",
-    "TCP.md",
-    "Concurrency.md",
-    "Thread Synchronization.md",
+    "Pasted image 20231109160223.png",
+    "Principle of Security Through Obscurity.md",
+    "Block Cipher.md",
+    "IT-Security.md",
+    "IT-Security Principle.md",
+    "Principle of Complete Mediation.md",
+    "Principle of Defense in Depth.md",
+    "Block Cipher Mode of Operation.md",
+    "Firewall.md",
+    "Nodes in a Network.md",
+    "Pasted image 20231108155612.png",
+    "Pasted image 20231108154524.png",
+    "Pasted image 20231108154441.png",
+    "Pasted image 20231108132824.png",
+    "Pasted image 20231108132146.png",
+    "Pasted image 20231108131447.png",
+    "Pasted image 20231108124558.png",
+    "Pasted image 20231108124427.png",
+    "Pasted image 20231105212507.png",
+    "Untitled 1.canvas",
     "Untitled.canvas"
   ]
 }

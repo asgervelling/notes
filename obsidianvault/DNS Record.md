@@ -61,13 +61,13 @@ Stores administrative information about a [[DNS Zone]].
 |---|---|---|---|---|--|
 |SOA|ns1.example.com|admin.example.com|549243|60|7200|
 
-`MNAME`: Primary [[Domain Name System#Recursive Resolver|name server]].
+`MNAME`: Primary [[Domain Name System (DNS)#Recursive Resolver|name server]].
 `RNAME`: Email address of the administrator responsible for this zone.
 			`@` becomes `.`, so the above administrator's email address is `admin@example.com`.
 `SERIAL`: The serial number represents a version in the zone. Whenever an update happens in the zone, the serial number will change, which tells the secondary servers to update as well.
 
 ### NS Record
-Provides the name of the [[Domain Name System#Authoritative Name Server|authoritative name server]] within a domain.
+Provides the name of the [[Domain Name System (DNS)#Authoritative Name Server|authoritative name server]] within a domain.
 An NS record will typically list two authoritative name servers: A primary and a secondary.
 
 ### SRV Record
@@ -100,6 +100,9 @@ The text record contains miscellaneous information about a domain.
 |TXT|example.com|`k=rsa; p=Uk9A5HwKTL;`|7200|
 
 Can provide authenticity by making sure the value comes from the authentic source.
+
+### SPF Record
+See [[Email Security]].
 
 ### Breaking down a domain
 ![[Pasted image 20231102163827.png]]

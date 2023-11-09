@@ -1,4 +1,4 @@
-A [[Domain Name System|DNS]] zone is a section of a domain name space that a certain administrator has been delegated control over.
+A [[Domain Name System (DNS)|DNS]] zone is a section of a domain name space that a certain administrator has been delegated control over.
 DNS zones allow a domain name space to be divided into different sections.
 
 If `example.com` was broken into three subdomains, such as

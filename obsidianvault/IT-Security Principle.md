@@ -1,0 +1,1 @@
+In [[IT-Security]], since we have many different security goals, we have many security principles. They make it easier to keep an overview of how to reach our goals.

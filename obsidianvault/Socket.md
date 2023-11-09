@@ -74,7 +74,7 @@ int main(int argc, char **argv) {
 	compsys_helper_state_t state;
 	host = argv[1];
 	port = argv[2];
-	clientfd = compsys_helper_pen_clientfd(host, port);
+	clientfd = compsys_helper_open_clientfd(host, port);
 	compsys_helper_readinitb(&state, clientfd);
 	while (fgets(buf, MAXLINE, stdin) != NULL) {
 		compsys_helpeer_writen(clientfd, buf, strlen(buf));
