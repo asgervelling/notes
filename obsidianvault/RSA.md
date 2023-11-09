@@ -14,6 +14,8 @@ RSA (Rivest-Shamir-Adleman) is an [[Asymmetric Encryption|asymmetric]] cryptogra
 - Encryption: The sender uses the recipient's public key to encrypt the message. The recipient can then decrypt the ciphertext using their private key.
 - Decryption: The recipient uses their private key to decrypt the received ciphertext and retrieve the original message.
 
+![[Pasted image 20231109221807.png]]
+
 ### Strengths and Applications
 
 - RSA encryption provides robust security for communications over insecure networks.

@@ -47,3 +47,19 @@ IPsec is a suite of protocols used to secure internet protocol (IP) communicatio
 
 
 IPSec is a crucial tool for securing IP communications, offering a comprehensive set of protocols and standards to ensure confidentiality, integrity, and authenticity in data transmission over IP networks.
+
+
+##### Questions
+> *Is an IPsec connection to your company network secure even if your home router’s TCP/IP implementation has a buffer overflow vulnerability?*
+
+As IPsec is not providing a full end to end security, as the packets are unprotected after
+going through the gateway to the enterprise network. The IPsec connection does not protect
+your connection if your home has a buffer overflow vulnerability.
+
+> *What is the difference between IPSec tunnel and transport mode?*
+
+The difference between IPsec tunnel and transport mode are how the packets are encrypted.
+With the transport mode a new IPsec header is inserted between the orignal header and
+the payload, while also adding a IPsec trailer if ESP is used (Encapsulation). When using
+IPsec tunnel mode, there is added a new outer header to the packet (also in transport mode)
+hiding the full payload and the original inner IP header.

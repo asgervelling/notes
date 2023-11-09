@@ -4,20 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "d42b3beb2e34ef4b",
+        "id": "2409c3244d572778",
         "type": "tabs",
         "children": [
           {
-            "id": "e1a06f9444134ed3",
+            "id": "aca9e9f38d5f466c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Buffer Overflow.md",
+                "file": "IT-Security.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "1a2b41d6d0dcc2a7"
+          }
+        ]
+      },
+      {
+        "id": "b8b140feb551ada5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26e7520aa3a84b06",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "IT-Security.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            },
+            "group": "1a2b41d6d0dcc2a7"
           }
         ]
       }
@@ -65,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Buffer Overflow.md",
+                "file": "IT-Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Buffer Overflow.md",
+                "file": "IT-Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Buffer Overflow.md"
+                "file": "IT-Security.md"
               }
             }
           }
@@ -148,44 +190,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1a06f9444134ed3",
+  "active": "aca9e9f38d5f466c",
   "lastOpenFiles": [
-    "RSA.md",
-    "Virtual Private Network (VPN).md",
-    "Key Establishment and Certificate Management.md",
-    "Digital Certificate.md",
-    "Two's Complement.md",
-    "Binary.md",
-    "Signed and Unsigned Numbers.md",
-    "Buffer Overflow.md",
-    "Diffie-Hellman Key Exchange.md",
-    "Tunnel.md",
     "Internet Protocol Security (IPSec).md",
-    "Secure Shell (SSH).md",
-    "Advanced Encryption Standard (AES).md",
-    "Networking.md",
-    "Symmetric Encryption.md",
-    "Asymmetric Encryption.md",
-    "Principle of Least Privilege.md",
-    "Pasted image 20231109160223.png",
-    "Principle of Security Through Obscurity.md",
-    "Block Cipher.md",
+    "Buffer Overflow.md",
     "IT-Security.md",
+    "Kerckhoff's Principle.md",
     "IT-Security Principle.md",
-    "Principle of Complete Mediation.md",
+    "Principle of Security Through Obscurity.md",
     "Principle of Defense in Depth.md",
-    "Block Cipher Mode of Operation.md",
-    "Firewall.md",
-    "Nodes in a Network.md",
+    "Non-repudiation.md",
+    "Digital Signature.md",
+    "Email Security.md",
+    "Domain Name System (DNS).md",
+    "DNS Zone.md",
+    "DNS Database.md",
+    "DNS Record.md",
+    "Recursive and Iterative DNS Queries.md",
+    "Key Establishment and Certificate Management.md",
+    "Virtual Private Network (VPN).md",
+    "Tunnel.md",
+    "Secure Shell (SSH).md",
+    "Networking.md",
+    "TCP.md",
+    "SYN Flood.md",
+    "Availability.md",
+    "CIA.md",
+    "Integrity.md",
+    "Confidentiality.md",
+    "Pasted image 20231109221807.png",
+    "Pasted image 20231109221802.png",
+    "Pasted image 20231109221257.png",
+    "Pasted image 20231109221218.png",
+    "Pasted image 20231109160223.png",
     "Pasted image 20231108155612.png",
     "Pasted image 20231108154524.png",
     "Pasted image 20231108154441.png",
     "Pasted image 20231108132824.png",
     "Pasted image 20231108132146.png",
-    "Pasted image 20231108131447.png",
-    "Pasted image 20231108124558.png",
-    "Pasted image 20231108124427.png",
-    "Pasted image 20231105212507.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
