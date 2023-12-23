@@ -1,0 +1,2 @@
+A passive adversary observes and records, but does not alter information.
+An active adversary interacts with ongoing transmissions, by injecting data or altering them, or starts new interactions with legitimate parties.

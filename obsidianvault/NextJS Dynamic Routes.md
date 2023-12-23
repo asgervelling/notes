@@ -1,0 +1,1 @@
+The NextJS app directory 

@@ -1,4 +1,4 @@
-Ensure data remains accurate and unaltered throughout its lifecycle.
+Ensure data remains accurate and unaltered throughout its life cycle.
 
 ##### Ensuring [[CIA]]
 Implement checksums and audit trails to verify and track data integrity.

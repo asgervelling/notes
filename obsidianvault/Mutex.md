@@ -1,4 +1,7 @@
-Short for mutual exclusion, a mutex is a lock that only one thread can acquire at a time. If a thread attempts to acquire a mutex that is already held by another thread, it will be blocked.
+Short for mutual exclusion, a mutex is a [[Lock|lock]] that only one thread can acquire at a time. If a thread attempts to acquire a mutex that is already held by another thread, it will be blocked.
+
+### Two operations
+Lock and unlock (AKA. claim and release / P and V).
 
 #### Mutexes in C
 We have four functions for dealing with mutexes in C.
@@ -27,8 +30,17 @@ We have four functions for dealing with mutexes in C.
    ```c
    int pthread_mutex_destroy(pthread_mutex_t *mutex);
    ```
-   
-   ##### Example Use
+
+### Initializing a Mutex
+> With `POSIX` threads, there are two ways to initialize locks. One way to do this is to use `PTHREAD_MUTEX_INITIALIZER`, as follows: `pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;`
+\ 
+> Doing so sets the lock to the default values and thus makes the lock usable. The dynamic way to do it (i.e., at run time) is to make a call to `pthread_mutex_init()` as follows: `int rc = pthread_mutex_init(&lock, NULL); assert(rc == 0); // always check success!`
+\ 
+> The first argument to this routine is the address of the lock itself, whereas the second is an optional set of attributes. Read more about the attributes yourself; passing NULL in simply uses the defaults. **Either way works**, but we usually use the dynamic (latter) method.
+
+Source: *OSTEP*.
+
+### Example Use
    ```c
 #include <pthread.h>
 #include <stdio.h>

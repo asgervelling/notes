@@ -61,7 +61,7 @@ This address family provides inter-process communication between processes that 
 
 ##### Protocol
 `SOCK_STREAM`: Use [[Circuit Switching]] with [[TCP]].
-`SOCK_DGRAM`: Use [[Packet Switching]] with [[UDP]].
+`SOCK_DGRAM`: Use [[Packet Switching]] with [[User Datagram Protocol (UDP)|UDP]].
 
 ##### Example: Echo server
 ![[Pasted image 20231025104642.png]]

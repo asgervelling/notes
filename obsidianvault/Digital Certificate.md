@@ -1,4 +1,4 @@
-	In the context of [[IT-Security]], a certificate, specifically a digital certificate, serves as an electronic document used to verify the ownership of a public key and provide secure and authenticated communication over networks.
+In the context of [[IT-Security]], a certificate, specifically a digital certificate, serves as an electronic document used to verify the ownership of a public key and provide secure and authenticated communication over networks.
 
 ### Key Elements of Digital Certificates
 

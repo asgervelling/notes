@@ -1,6 +1,6 @@
 Waiting, signaling, and broadcasting are fundamental mechanisms used for synchronization:
 
-- **Waiting**: Threads can wait for a specific condition to be met using condition variables. When the condition is not met, a thread can go to sleep, conserving system resources.
+- **Waiting**: Threads can wait for a specific condition to be met using [[Condition Variable|condition variables]]. When the condition is not met, a thread can go to sleep, conserving system resources.
   
 - **Signaling**: Threads can signal other threads when a condition they are waiting for is met. This awakens the waiting thread, allowing it to recheck the condition and proceed accordingly.
   
