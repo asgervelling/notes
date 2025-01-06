@@ -4,76 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9682580c1ff63c7b",
+        "id": "927c2b672da8afd5",
         "type": "tabs",
         "children": [
           {
-            "id": "b4eee3eb9a2c7787",
+            "id": "7abb3c47306f046a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backus-Naur Form.md",
+                "file": "Petri Net.md",
                 "mode": "source",
                 "source": false
-              }
-            },
-            "group": "884503ea933112c0"
-          },
-          {
-            "id": "c1cb9d2f533c7127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Extended Backus-Naur Form.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Petri Net"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "170951cd8f0346c8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "34aa5000dc7287c1",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Backus-Naur Form.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7384336301264716,
-                  "close": true
-                }
-              }
-            },
-            "group": "884503ea933112c0"
           }
         ]
       }
@@ -97,7 +43,9 @@
                 "file": "Rules of Inference.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Rules of Inference"
             }
           },
           {
@@ -106,13 +54,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Examples",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -120,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -130,7 +82,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ],
@@ -138,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -155,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extended Backus-Naur Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -172,10 +127,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extended Backus-Naur Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -186,7 +142,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -194,9 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Extended Backus-Naur Form.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -216,44 +174,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8caf2908d842bf6",
+  "active": "7abb3c47306f046a",
   "lastOpenFiles": [
-    "Backus-Naur Form.md",
-    "Extended Backus-Naur Form.md",
-    "Parse Tree.md",
-    "Pasted image 20231223124848.png",
-    "Pasted image 20231223124312.png",
-    "Pasted image 20231223123813.png",
-    "Structure and Semantics of a Language.md",
-    "Socket.md",
-    "File Types.md",
-    "Packet Switching.md",
-    "Circuit Switching.md",
-    "Internet Connection.md",
-    "Denial-Of-Service attack.md",
-    "Spoofing.md",
-    "Three-Way Handshake.md",
-    "TCP.md",
-    "CompSys - A4.md",
-    "TCP-IP Internet Layering Model.md",
-    "LICS Assignment 1.md",
-    "Logical Operator Precedence.md",
-    "Rules of Inference.md",
-    "Implication Truth Table.md",
-    "Pasted image 20231127203149.png",
-    "Propositional Logic.md",
-    "Prepositional Logic.md",
-    "Law of Transitivity.md",
-    "Contrapositive.md",
-    "Mutex.md",
-    "Lock.md",
-    "Creating, Joining, Exiting and Cancelling Threads.md",
-    "Pasted image 20231120212037.png",
-    "Pasted image 20231120211946.png",
-    "Pasted image 20231120205659.png",
-    "Pasted image 20231120132626.png",
-    "Pasted image 20231120132436.png",
-    "Pasted image 20231119225438.png",
+    "Pasted image 20250106094748.png",
+    "Finite State Automata.md",
+    "Petri Net.md",
+    "Process Modelling.md",
+    "Pasted image 20250106093758.png",
+    "Pasted image 20250106093634.png",
+    "Pasted image 20250106093633.png",
+    "Pasted image 20250106093355.png",
+    "Pasted image 20250106091552.png",
+    "Finite-state-machine.md",
+    "Pasted image 20250106090903.png",
+    "Pasted image 20250106090835.png",
+    "Pasted image 20250106090511.png",
+    "Reactive and Event Based Systems (REBS).md",
+    "Process Mining.md",
+    "RISC-V.md",
+    "Endianness (Byte Ordering).md",
+    "RISC-V - Instructions.md",
+    "Memory.md",
+    "RISC-V - Registers.md",
+    "RISC-V - Control Flow.md",
+    "Pasted image 20250105163336.png",
+    "Pasted image 20250105163142.png",
+    "Logical Control Flow.md",
+    "Byte Units.md",
+    "Process.md",
+    "RISC-V - Instructions list - RV32I.md",
+    "Machine Code.md",
+    "Compiler.md",
+    "Cache.md",
+    "Memory Hierarchy.md",
+    "working set.md",
+    "Caching - Eviction Policies.md",
+    "CompSys Exercises 2024-11-29 - A Simple Machine.md",
+    "Cache Basics - Visual Examples.md",
+    "Concurrency.md",
     "TCP",
     "Untitled 1.canvas",
     "Untitled.canvas"

@@ -48,3 +48,29 @@ Therefore, let's define a better grammar consisting of four rules
 ```
 
 This grammar is saying that a number can only start with a 0 if it is not followed by something else. We can still use 0, but not as the first token.
+
+
+### Operand Precedence and Associativity
+Here is an [exercise](https://csci305.github.io/lectures/l07_syntax.html) in precedence and associativity.
+
+Given the following grammar:
+
+```
+<exp>     ::= <exp> + <mulexp> | <mulexp>
+<mulexp>  ::= <mulexp> * <rootexp> | <rootexp>
+<rootexp> ::= ( <exp> ) | a | b | c
+```
+
+Modify it as follows:
+- Add a left-associative operator % between + and * in precedence.
+- Add a right-associative operator = at lower precedence than any of the other operators
+
+Take a look at the solution and see how it works
+```
+<exp> ::= <addexp> = <exp> | <addexp>
+<addexp> ::= <addexp> + <modexp> | <modexp>
+<modexp> ::= <modexp> % <mulexp> | <mulexp>
+<mulexp>  ::= <mulexp> * <rootexp> | <rootexp>
+<rootexp> ::= ( <exp> ) | a | b | c
+```
+

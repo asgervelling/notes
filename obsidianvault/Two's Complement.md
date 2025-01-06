@@ -3,7 +3,7 @@ $$
 \displaystyle\sum_{i=31}^0 x_i \cdot 2^i
 $$
 where $x$ is the value of the $i$'th bit, either 0 or 1.
-For the case of 0101, that would be converted to base 10 like so:
+For the case of 0101, that would be converted to base 10 like so:p
 $$
 (0 \cdot 2^3) + (1 \cdot 2^2) + (0 \cdot 2^1) + (1 \cdot 2^0) = 5.
 $$

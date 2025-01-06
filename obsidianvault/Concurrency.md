@@ -6,7 +6,7 @@ A concurrent program will multitask really fast, like a human: Do a bit of work 
 
 ##### Why we use concurrency
 We want to make our programs faster, either measured by [[Latency]] or [[Throughput]].
-We use the ideas of [[Scaling]]. An exam question might be "Is this function scalable?""
+We use the ideas of [[Scalability]]. An exam question might be "Is this function scalable?""
 Things have been said about it:
 [[Amdahl's Law]]
 [[Gustafson's Law]]
@@ -19,6 +19,8 @@ Things have been said about it:
 - **Starvation**: External events or scheduling prevents forward progress.
 	- **Example**: Someone always jumping ahead in line.
 	- Also known as *livelock* or *fairness*.
+
+Each CPU core executes a single logical control flow.
 
 ##### Inter-Thread Communication
 We can send data from one thread to another using communication channel and signals.
@@ -73,3 +75,19 @@ void* fib_thread(void* arg) {
 char *line = arg;*
 }
 ```
+
+
+## Exercises 2024-10-07
+
+### *Performance comparisons*
+
+*Suppose you wish to parallelise an image processing algorithm. You are given an efficient sequential implementation I_s, and you then develop a parallel implementation I_p. You have access to two machines:*
+
+1. *A machine with a single very fast processor running at 4GHz (i.e. executes 4 billion instructions per second).*
+    
+2. *A machine with eight slower processors, each running at 2.5GHz (i.e. each executes 2.5 billion instructions per second).*
+    
+
+*Explain how you could perform a fair performance comparison of I_s and I_p.*
+
+When we compare the performance of two programs, both must be shown in their best light. _I_s_ cannot take advantage of more than one processor, so it would be unfair to use a single one of the slow processors. Conversely, parallel programs like _I_p_ might not run optimally on a single processor. Thus, we need to run _I_s_ on system 1 and _I_p_ on system 2 and compare their performance. Since the systems are different, we cannot use speedup-in-latency. What we need to do is compute the _throughput_ of the two programs, and then we can compute the speedup-in-throughput.

@@ -1,2 +1,0 @@
-Weak scalability
-Strong scalability
